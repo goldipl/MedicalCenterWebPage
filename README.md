@@ -10,3 +10,6 @@ Project was created with:
 * HTML5
 * CSS3
 * Bootstrap
+
+Centrum Medyczne FizjoMedica © 2020
+Wszelkie prawa zastrzeżone - zakaz kopiowania, cytowania lub przetwarzania w jakiejkolwiek formie bez naszej zgody.
