@@ -6928,6 +6928,7 @@ button.bg-dark:focus {
 
 .border-primary {
     border-color: rgb(41, 58, 134) !important;
+    padding: 1.0rem;
 }
 
 .border-secondary {
