@@ -10323,27 +10323,32 @@ header.masthead02 {
     background-size: cover;
 }
 
-header.masthead h1 {
+header.masthead h1,
+header.masthead02 h1 {
     font-size: 2.25rem;
 }
 
 @media (min-width: 1200px) {
-    header.masthead {
+    header.masthead,
+    header.masthead02 {
         height: 100vh;
         min-height: 40rem;
         padding-top: 4.5rem;
         padding-bottom: 0;
     }
-    header.masthead p {
+    header.masthead p,
+    header.masthead02 p {
         font-size: 1.15rem;
     }
-    header.masthead h1 {
+    header.masthead h1,
+    header.masthead02 h1 {
         font-size: 3rem;
     }
 }
 
 @media (min-width: 1200px) {
-    header.masthead h1 {
+    header.masthead h1,
+    header.masthead02 h1 {
         font-size: 3.5rem;
     }
 }
