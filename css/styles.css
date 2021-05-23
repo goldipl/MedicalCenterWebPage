@@ -10464,6 +10464,11 @@ footer a:hover {
     margin-bottom: 4px;
 }
 
+.frameButton:hover {
+    background-color: rgba(41, 58, 134, 0.9);
+    color: #FFFFFF;
+}
+
 a:visited {
     color: rgba(41, 58, 134, 0.9);
 }
