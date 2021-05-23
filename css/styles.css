@@ -10435,3 +10435,8 @@ footer a:hover {
     display: block;
     margin: 0 auto;
 }
+
+.spaNavMenu {
+    padding-bottom: 24px;
+    line-height: 1.8;
+}
