@@ -10472,3 +10472,9 @@ footer a:hover {
 a:visited {
     color: rgba(41, 58, 134, 0.9);
 }
+
+.navLeftMenu {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 0.9rem;
+}
