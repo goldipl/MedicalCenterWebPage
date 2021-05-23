@@ -10455,3 +10455,13 @@ footer a:hover {
 .smallNavImg:hover {
     opacity: 0.7;
 }
+
+.frameButton {
+    border: 1px solid rgba(41, 58, 134, 0.9);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+a:visited {
+    color: rgba(41, 58, 134, 0.9);
+}
