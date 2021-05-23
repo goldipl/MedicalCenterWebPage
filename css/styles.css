@@ -10440,3 +10440,14 @@ footer a:hover {
     padding-bottom: 24px;
     line-height: 1.8;
 }
+
+.smallNavImg {
+    width: 200px;
+    margin: 24px 0;
+}
+
+@media (max-width:1199px) {
+    .smallNavImg {
+        display: none;
+    }
+}
