@@ -10478,3 +10478,8 @@ a:visited {
     font-style: italic;
     font-size: 0.9rem;
 }
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(41, 58, 134) !important;
+    text-shadow: none !important;
+}
