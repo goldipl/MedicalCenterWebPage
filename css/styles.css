@@ -10460,6 +10460,8 @@ footer a:hover {
     border: 1px solid rgba(41, 58, 134, 0.9);
     border-radius: 5px;
     padding: 8px;
+    display: inline-block;
+    margin-bottom: 4px;
 }
 
 a:visited {
