@@ -10421,3 +10421,12 @@ header.masthead02 h1 {
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
 }
+
+footer a  {
+    color: #fff !important;
+}
+
+footer a:hover {
+    color: rgba(41, 58, 134, 0.8);
+    text-decoration: underline;
+}
