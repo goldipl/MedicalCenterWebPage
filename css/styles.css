@@ -10497,6 +10497,8 @@ a:visited {
 
 .imgTextSection .imgTextSection__Text span {
     color: rgba(41, 58, 134, 0.9);
+    font-style: italic;
+    font-weight: bold;
 }
 
 .imgTextSection .imgTextSection__Text span:hover {
@@ -10520,6 +10522,10 @@ a:visited {
         flex-direction: column;
     }
     .imgTextSection .imgTextSection__Text p {
+        text-align: center;
+    }
+    .imgTextSection .imgTextSection__Text span {
+        display: block;
         text-align: center;
     }
 }
