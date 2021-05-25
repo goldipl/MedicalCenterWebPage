@@ -10446,12 +10446,6 @@ footer a:hover {
     margin: 24px 0;
 }
 
-@media (max-width:1199px) {
-    .smallNavImg {
-        display: none;
-    }
-}
-
 .smallNavImg:hover {
     opacity: 0.7;
 }
@@ -10516,4 +10510,16 @@ a:visited {
 .linkImgTextSection a {
     text-decoration: none;
     color: #000000;
+}
+
+@media (max-width:1199px) {
+    .smallNavImg {
+        display: none;
+    }
+    .imgTextSection {
+        flex-direction: column;
+    }
+    .imgTextSection .imgTextSection__Text p {
+        text-align: center;
+    }
 }
