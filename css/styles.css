@@ -10483,3 +10483,37 @@ a:visited {
     color: rgb(41, 58, 134) !important;
     text-shadow: none !important;
 }
+
+.imgTextSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin: 24px auto;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.imgTextSection .imgTextSection__Text p {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.imgTextSection .imgTextSection__Text span {
+    color: rgba(41, 58, 134, 0.9);
+}
+
+.imgTextSection .imgTextSection__Text span:hover {
+    text-decoration: underline;
+}
+
+.imgTextSection:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.linkImgTextSection a {
+    text-decoration: none;
+    color: #000000;
+}
