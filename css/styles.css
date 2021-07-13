@@ -10536,6 +10536,10 @@ a:visited {
     padding-bottom: 10px;
 }
 
+.logos_main_page {
+    padding: 16px;
+}
+
 @media (max-width:1199px) {
     .smallNavImg {
         display: none;
