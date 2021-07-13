@@ -10541,6 +10541,10 @@ a:visited {
 }
 
 #gallery a:hover {
+    color: #000000;
+}
+
+#gallery a:hover {
     color: #FFFFFF;
 }
 
