@@ -10540,6 +10540,10 @@ a:visited {
     padding: 16px;
 }
 
+#gallery a:hover {
+    color: #FFFFFF;
+}
+
 @media (max-width:1199px) {
     .smallNavImg {
         display: none;
