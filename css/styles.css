@@ -10544,6 +10544,10 @@ a:visited {
     color: #FFFFFF;
 }
 
+#contact figure {
+    margin-bottom: -8px;
+}
+
 @media (max-width:1199px) {
     .smallNavImg {
         display: none;
