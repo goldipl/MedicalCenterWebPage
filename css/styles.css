@@ -10540,7 +10540,7 @@ a:visited {
     padding: 16px;
 }
 
-#gallery a:hover {
+#gallery a {
     color: #000000;
 }
 
