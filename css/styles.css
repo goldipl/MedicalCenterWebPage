@@ -10552,6 +10552,15 @@ a:visited {
     margin-bottom: -8px;
 }
 
+#navbarResponsive a.fbbutton {
+    margin: 0 10px;
+}
+
+#navbarResponsive a.fbbutton:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    border: 1px solid #000000;
+}
+
 @media (max-width:1199px) {
     .smallNavImg {
         display: none;
