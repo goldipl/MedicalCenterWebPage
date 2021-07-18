@@ -10582,6 +10582,10 @@ button.btn.fbColor {
     .imgTextSectionSingle .imgTextSection__Text {
         width: 90%;
     }
+    #navbarResponsive a.fbbutton {
+        width: 60px;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 900px) {
