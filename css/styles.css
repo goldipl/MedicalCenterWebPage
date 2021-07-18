@@ -10588,6 +10588,13 @@ button.btn.fbColor {
     }
 }
 
+@media (min-width: 1200px) {
+    .navbar-nav .nav-item {
+        display: flex;
+        align-items: center;
+    }
+}
+
 @media (min-width: 900px) {
     .videoWrapper {
         width: 560px !important;
