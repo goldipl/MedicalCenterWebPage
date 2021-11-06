@@ -41,8 +41,8 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 1200px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-sans-serif: "Merriweather", Roboto, sans-serif;
+    --font-family-monospace: "Merriweather", Roboto, sans-serif;
 }
 
 *,
@@ -73,7 +73,7 @@ section {
 
 body {
     margin: 0;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -217,7 +217,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Merriweather", Roboto, sans-serif;
     font-size: 1em;
 }
 
@@ -421,7 +421,7 @@ h6,
 .h5,
 .h6 {
     margin-bottom: 0.5rem;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -6204,7 +6204,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -6329,7 +6329,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -9861,7 +9861,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-family: "Merriweather", Roboto, sans-serif;
 }
 
 .text-justify {
@@ -10212,7 +10212,7 @@ hr.light {
 }
 
 .btn {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
 }
 
 .btn-xl {
@@ -10241,14 +10241,14 @@ hr.light {
 }
 
 #mainNav .navbar-brand {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-weight: 700;
     color: #212529;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
     color: #6c757d;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-weight: 700;
     font-size: 0.9rem;
     padding: 0.3rem 0;
@@ -10396,7 +10396,7 @@ header.masthead02 h1 {
 #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Merriweather", Roboto, sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
