@@ -61,3 +61,6 @@
     });
 
 })(jQuery); // End of use strict
+
+//Footer Year
+document.querySelector("span.footerYear").innerHTML = new Date().getFullYear();

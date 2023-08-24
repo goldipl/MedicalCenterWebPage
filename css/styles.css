@@ -10561,6 +10561,11 @@ button.btn.fbColor {
     background-color: #3b5998;
 }
 
+.brainimg {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width:1199px) {
     .smallNavImg {
         display: none;
@@ -10597,5 +10602,11 @@ button.btn.fbColor {
         height: 420px !important;
         padding: 0;
         margin: 24px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .brainimg {
+        width: 100%;
     }
 }
