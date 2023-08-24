@@ -10610,3 +10610,14 @@ button.btn.fbColor {
         width: 100%;
     }
 }
+
+.hero-open-btn {
+    background: #d6ebff70 !important;
+    border: 1px solid #FFFFFF !important;
+    transition: 0.6s !important;
+}
+
+.hero-open-btn:hover {
+    color: unset !important;
+    border-color: #FF0000 !important;
+}
