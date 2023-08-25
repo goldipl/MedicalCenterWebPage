@@ -17,6 +17,8 @@ Project was created with:
 * HTML5
 * CSS3
 * Bootstrap
+* JavaScript
+* AoS.js
 
 ## Page Content Copyrights PL
 Centrum Medyczne FizjoMedica © 2020
