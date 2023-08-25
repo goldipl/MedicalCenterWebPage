@@ -3,6 +3,7 @@
 * [Technologies](#technologies)
 * [Page Content Copyrights PL](#page-content-copyrights-pl)
 * [Rest Content Sources](#rest-content-sources)
+* [Screenshots](#screenshots)
 * [Live](#live)
 
 ## General info
@@ -24,6 +25,14 @@ Wszelkie prawa zastrzeżone - zakaz kopiowania, cytowania lub przetwarzania w ja
 ## Rest Content Sources
 * Source 1: https://astar.pl/
 * Source 2: https://www.youtube.com/channel/UCHhWS7_x1Dl_OJkAHCBjbyg
+
+## Screenshots
+
+### Screenshot desktop
+![screeenshot](./screenshots/screenshot_desktop.png)
+
+### Screenshot mobile
+![screeenshot](./screenshots/screenshot_mobile.png)
 
 ## Live :star2:
 https://goldipl.github.io/MedicalCenterWebPage/
