@@ -6788,6 +6788,17 @@ a.close.disabled {
 
 .bg-second2 {
     background: linear-gradient(to top, rgba(101, 126, 238, 0.8) 0%, rgba(41, 58, 134, 0.8) 100%) !important;
+    padding-top: 80px !important;
+}
+
+#spa {
+    padding-top: 80px !important;  
+}
+
+@media (max-width: 800px) {
+    .bg-second2 {
+        padding-top: 40px !important;
+    }  
 }
 
 .bg-full-blue {
