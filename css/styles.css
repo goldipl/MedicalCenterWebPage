@@ -10626,6 +10626,7 @@ button.btn.fbColor {
     background: #d6ebff70 !important;
     border: 1px solid #FFFFFF !important;
     transition: 0.6s !important;
+    color: rgba(41, 58, 134, 0.9) !important;
 }
 
 .hero-open-btn:hover {
