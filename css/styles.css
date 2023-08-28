@@ -10620,6 +10620,10 @@ button.btn.fbColor {
     .brainimg {
         width: 100%;
     }
+    .imgTextSection {
+        width: 90%;
+        padding: 0 5%;
+    }
 }
 
 .hero-open-btn {
