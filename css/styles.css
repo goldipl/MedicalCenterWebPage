@@ -10637,3 +10637,23 @@ button.btn.fbColor {
     color: unset !important;
     border-color: #FF0000 !important;
 }
+
+@media (max-width: 800px) {
+    #telephone-block {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgb(41, 58, 134);
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        z-index: 99999999999999999999999999999;
+        box-shadow: 0px 0px 15px 0px rgba(66, 68, 90, 1);
+        i {
+            font-size: 32px;
+        }
+    }
+}
