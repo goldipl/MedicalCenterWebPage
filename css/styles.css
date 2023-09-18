@@ -10485,12 +10485,21 @@ a:visited {
     text-shadow: none !important;
 }
 
+#doctors .doctors-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .imgTextSection {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 300px;
     margin: 24px auto;
     transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
@@ -10500,25 +10509,31 @@ a:visited {
     width: 100%;
     margin: 10px 0;
     padding: 0;
+    text-align: center;
 }
 
 .imgTextSection .imgTextSection__Text span {
+    background: #d6ebff70;
+    border: 1px solid rgba(41, 58, 134, 0.9);
     color: rgba(41, 58, 134, 0.9);
     font-style: italic;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.9s;
+    border-radius: 6px;
 }
 
 .imgTextSection .imgTextSection__Text span:hover {
-    text-decoration: underline;
-}
-
-.imgTextSection:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .linkImgTextSection a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #000000;
+    margin-top: 15px;
 }
 
 .imgTextSectionSingle {
