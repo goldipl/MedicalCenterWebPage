@@ -10524,7 +10524,8 @@ a:visited {
 }
 
 .imgTextSection .imgTextSection__Text span:hover {
-    border: 1px solid rgb(255, 0, 0);
+    background-color: rgba(41, 58, 134, 0.9);
+    color: #FFFFFF;
 }
 
 .linkImgTextSection a {
@@ -10672,4 +10673,70 @@ button.btn.fbColor {
         width: 28px;
         height: 28px;
     }
+}
+
+.fizjomedica-style {
+    background: #d6ebff70 !important;
+    border-radius: 5px !important;
+    transition: 0.7s !important;
+}
+
+.fizjomedica-style.btn-lg {
+    width: 90vw;
+    color: rgba(41, 58, 134, 0.9);
+}
+
+.fizjomedica-style.btn-lg:hover {
+    border-color: rgb(255, 0, 0);
+}
+
+.fizjomedica-style span {
+    color: #000000;
+}
+
+.logo-after {
+    position: relative;
+}
+
+.logo-after::after {
+    position: absolute;
+    content: '';
+    top: -20px;
+    right: -20px;
+    background: url('./../assets/img/logo.jpg');
+    width: 101px;
+    height: 99px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    animation: logorotate infinite linear 25s;
+}
+
+@keyframes logorotate {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.max-content {
+    width: max-content;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(206, 206, 206, 1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(206, 206, 206, 1);
+    box-shadow: 0px 0px 30px 0px rgba(206, 206, 206, 1);
+}
+
+@media (max-width: 800px) {
+    body .bg-second2 {
+        overflow-x: hidden;
+    }
+}
+
+.offert-list > p {
+    margin: 6px;
 }
