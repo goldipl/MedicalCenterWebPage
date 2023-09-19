@@ -10736,6 +10736,10 @@ button.btn.fbColor {
     body .bg-second2 {
         overflow-x: hidden;
     }
+    .contact-btn-container {
+        width: 80vw;
+        margin: 0 auto;
+    }
 }
 
 .offert-list > p {
