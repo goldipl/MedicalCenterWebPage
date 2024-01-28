@@ -64,3 +64,12 @@
 
 //Footer Year
 document.querySelector("span.footerYear").innerHTML = new Date().getFullYear();
+
+$(document).ready(function () {
+
+    $('.first-button').on('click', function () {
+  
+      $('.animated-icon1').toggleClass('open');
+    });
+
+  });
