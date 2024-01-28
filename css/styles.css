@@ -6804,6 +6804,16 @@ a.close.disabled {
     .bg-second2 {
         padding-top: 40px !important;
     }  
+    #spa {
+        padding-top: 24px !important;  
+    }
+    #spa h2 {
+        font-size: 1.3rem !important;
+    }
+    #mainNav {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
 }
 
 .bg-full-blue {
@@ -10008,7 +10018,7 @@ button.bg-dark:focus {
 
 .text-whiteframe {
     color: #FFFFFF !important;
-    text-shadow: 3px 3px 2px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .text-blue-frame {
@@ -10328,6 +10338,7 @@ header.masthead {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    height: 100vh;
 }
 
 header.masthead02 {
@@ -10338,8 +10349,21 @@ header.masthead02 {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height: 500px !important; 
-    min-height: 500px !important; 
+    height: 400px !important; 
+    min-height: 400px !important; 
+}
+
+@media (max-width: 760px) {
+    header.masthead02 {
+        height: 200px !important; 
+        min-height: 200px !important; 
+        h1 {
+            font-size: 1.6rem !important;
+        }
+    }  
+    h2 {
+        font-size: 1.6rem;
+    }
 }
 
 header.masthead h1{
@@ -10849,3 +10873,69 @@ button.btn.fbColor {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
+
+@media (max-width: 760px) {
+    .spa-offer-box {
+        flex-direction: column !important;
+        div {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+.spa-01-img,
+.spa-02-img,
+.spa-03-img {
+    position: relative;
+}
+
+.spa-01-img::before,
+.spa-02-img::before,
+.spa-03-img::before {
+    content: 'TWARZ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 300;
+    background-color: #ffffff4a;
+    border-radius: 24px;
+    padding: 0 16px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    pointer-events: none;
+}
+
+.spa-02-img::before {
+    content: 'MODELOWANIE SYLWETKI';
+}
+
+.spa-03-img::before {
+    content: 'INNE ZABIEGI';
+}
+
+.spa-01-img:hover::before,
+.spa-02-img:hover::before,
+.spa-03-img:hover::before {
+    content: 'Sprawdź';
+    font-size: 36px;
+}
+
+@media (max-width: 1200px) {
+    .spa-01-img::before,
+    .spa-02-img::before,
+    .spa-03-img::before {
+        font-size: 36px;
+    } 
+    .spa-01-img:hover::before,
+    .spa-02-img:hover::before,
+    .spa-03-img:hover::before {
+        content: 'Sprawdź';
+        font-size: 22px;
+    }
+}
