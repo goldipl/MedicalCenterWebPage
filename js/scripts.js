@@ -23,6 +23,7 @@
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
         $('.navbar-collapse').collapse('hide');
+        $(".animated-icon1").removeClass("open");
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
@@ -60,16 +61,16 @@
         }
     });
 
+    $(document).ready(function () {
+
+        $('.first-button').on('click', function () {
+      
+          $('.animated-icon1').toggleClass('open');
+        });
+    
+      });
 })(jQuery); // End of use strict
 
 //Footer Year
 document.querySelector("span.footerYear").innerHTML = new Date().getFullYear();
 
-$(document).ready(function () {
-
-    $('.first-button').on('click', function () {
-  
-      $('.animated-icon1').toggleClass('open');
-    });
-
-  });
