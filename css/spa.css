@@ -60,6 +60,9 @@
     .spa-03-img::before {
         font-size: 28px;
     } 
+    .small-nav-img {
+        display: none;
+    }
 }
 
 @media (max-width: 760px) {
@@ -75,4 +78,82 @@
     .spa-offer-box .spa-box-text {
         font-size: 13px;
     }
+    table tr td p {
+        font-size: 13px !important;
+    }
+}
+
+.spa-nav-menu {
+    padding-bottom: 24px;
+    line-height: 1.8;
+}
+
+.small-nav-img {
+    width: 100%;
+    margin: 0 0 16px 0;
+}
+
+.small-nav-img:hover {
+    opacity: 0.7;
+}
+
+.spa-nav-menu .spa-nav-menu__title {
+    background: linear-gradient(to bottom, rgba(238, 231, 227, 0.8) 0%, rgba(41, 58, 134, 0.8) 100%), url(../assets/img/bg-masthead.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+.spa-nav-menu .spa-nav-menu__title p {
+    font-size: 16px !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #000000;
+    margin: 0;
+}
+
+.spa-nav-menu .spa-nav-menu__slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+.spa-nav-menu .spa-nav-menu__slot:last-of-type {
+    margin: 0 0 16px 0;
+}
+
+.spa-nav-menu .spa-nav-menu__slot a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.spa-nav-menu .spa-nav-menu__slot:hover {
+    background-color: #aecdec2a;
+}
+
+.spa-nav-menu .spa-nav-menu__slot:hover a {
+    font-weight: 500;
+}
+
+.spa-table tr td,
+.spa-table tr th {
+    border: 1px solid #dee2e6;
 }
