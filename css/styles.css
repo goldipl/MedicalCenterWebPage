@@ -10881,68 +10881,11 @@ button.btn.fbColor {
     transform: rotate(-135deg);
   }
 
-@media (max-width: 760px) {
-    .spa-offer-box {
-        flex-direction: column !important;
-        div {
-            img {
-                width: 100% !important;
-            }
-        }
+  @media (max-width: 760px) {
+    table tr td,
+    p,
+    ul li,
+    ol li {
+        font-size: 14px !important;
     }
-}
-
-.spa-01-img,
-.spa-02-img,
-.spa-03-img {
-    position: relative;
-}
-
-.spa-01-img::before,
-.spa-02-img::before,
-.spa-03-img::before {
-    content: 'TWARZ';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: #FFFFFF;
-    font-weight: 300;
-    background-color: #ffffff4a;
-    border-radius: 24px;
-    padding: 0 16px;
-    text-align: center;
-    text-shadow: 2px 2px 2px #000;
-    pointer-events: none;
-}
-
-.spa-02-img::before {
-    content: 'MASAŻE RELAKSACYJNE';
-}
-
-.spa-03-img::before {
-    content: 'MODELOWANIE SYLWETKI';
-}
-
-.spa-01-img:hover::before,
-.spa-02-img:hover::before,
-.spa-03-img:hover::before {
-    content: 'Sprawdź';
-    font-size: 36px;
-}
-
-@media (max-width: 1200px) {
-    .spa-01-img::before,
-    .spa-02-img::before,
-    .spa-03-img::before {
-        font-size: 36px;
-    } 
-    .spa-01-img:hover::before,
-    .spa-02-img:hover::before,
-    .spa-03-img:hover::before {
-        content: 'Sprawdź';
-        font-size: 22px;
-    }
-}
+  }
