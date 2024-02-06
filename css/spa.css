@@ -1,0 +1,79 @@
+.spa-01-img,
+.spa-02-img,
+.spa-03-img {
+    position: relative;
+    width: 48%;
+    margin: 1%;
+}
+
+.spa-01-img::before,
+.spa-02-img::before,
+.spa-03-img::before {
+    content: 'TWARZ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: 300;
+    background-color: #ffffff4a;
+    padding: 0 16px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    pointer-events: none;
+}
+
+.spa-02-img::before {
+    content: 'MASAŻE RELAKSACYJNE';
+}
+
+.spa-03-img::before {
+    content: 'MODELOWANIE SYLWETKI';
+}
+
+.spa-01-img:hover,
+.spa-02-img:hover,
+.spa-03-img:hover {
+    filter: brightness(1.06);
+}
+
+.spa-offer-box div a {
+    text-decoration: none;
+}
+
+.spa-offer-box .spa-box-text {
+    background: linear-gradient(to bottom, rgba(238, 231, 227, 0.2) 15%, rgba(41, 58, 134, 0.4) 100%), url(../assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+    color: rgba(41, 58, 134, 0.9);
+    font-style: italic;
+    border: 1px solid #22222223;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .spa-01-img::before,
+    .spa-02-img::before,
+    .spa-03-img::before {
+        font-size: 28px;
+    } 
+}
+
+@media (max-width: 760px) {
+    .spa-01-img,
+    .spa-02-img,
+    .spa-03-img {
+        width: 90%;
+        margin: 0;
+    }
+    .spa-offer-box {
+        flex-direction: column !important;
+    }
+    .spa-offer-box .spa-box-text {
+        font-size: 13px;
+    }
+}
