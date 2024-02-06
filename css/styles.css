@@ -4415,7 +4415,6 @@ input[type=button].btn-block {
 }
 
 .navbar-brand {
-    font-family: "Merriweather", Roboto, sans-serif;
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
@@ -4423,11 +4422,6 @@ input[type=button].btn-block {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-}
-
-.navbar-brand .text-blue,
-.navbar-brand .text-red {
-    font-family: "Merriweather", Roboto, sans-serif;
 }
 
 .navbar-brand:hover,
@@ -10381,8 +10375,7 @@ header.masthead02 {
 }
 
 header.masthead h1 {
-    font-family: "Merriweather", Roboto, sans-serif;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 header.masthead02 h1 {
@@ -10760,8 +10753,8 @@ button.btn.fbColor {
     top: -20px;
     right: -20px;
     background: url('./../assets/img/logo.jpg');
-    width: 101px;
-    height: 99px;
+    width: 100px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
