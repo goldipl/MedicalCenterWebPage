@@ -10540,7 +10540,6 @@ a:visited {
     width: 300px;
     margin: 24px auto;
     transition: box-shadow 0.3s ease-in-out;
-    cursor: pointer;
 }
 
 .imgTextSection .imgTextSection__Text p {
