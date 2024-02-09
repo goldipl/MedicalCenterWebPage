@@ -30,11 +30,8 @@ Wszelkie prawa zastrzeżone - zakaz kopiowania, cytowania lub przetwarzania w ja
 
 ## Screenshots
 
-### Screenshot desktop
-![screeenshot](./screenshots/screenshot_desktop.png)
-
-### Screenshot mobile
-![screeenshot](./screenshots/screenshot_mobile.png)
+### Screenshot desktop & mobile   
+![screeenshot](./screenshots/screenshot.jpg)   
 
 ## Live :star2:
 https://goldipl.github.io/MedicalCenterWebPage/
