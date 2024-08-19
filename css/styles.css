@@ -10876,3 +10876,7 @@ button.btn.fbColor {
         font-size: 16px;
     }
   }
+
+  footer a.ocean-blue {
+    color: #d6ebff !important;
+  }
