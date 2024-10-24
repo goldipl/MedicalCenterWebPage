@@ -10880,3 +10880,50 @@ button.btn.fbColor {
   footer a.ocean-blue {
     color: #d6ebff !important;
   }
+
+/* Nasza kadra */
+
+@media (max-width: 992px) {
+    .linkImgTextSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 12px 8px;
+    }
+    
+    .linkImgTextSection *:not(img) {
+        width: 40vw;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .linkImgTextSection img {
+        height: 210px;
+        width: 100%;
+        object-fit: cover
+    }
+    .imgTextSection__Text p strong {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 40px;
+    }
+    .imgTextSection__Text p.text-muted,
+    .imgTextSection .imgTextSection__Text span{
+        font-size: 13px !important;
+        margin-top: 0 !important;
+    }
+}
+
+
+@media (max-width: 385px) {
+    .imgTextSection__Text p.text-muted {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 30px;
+    }
+}
